@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 10, 2019, 9:49:27 PM
+    Author     : ADMIN
+*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #000;
+}
+
+.nav-item{
+
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-item a{
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px #cccccc;
+}
+.ghnumber{
+    color: red;
+    background-color: #fff;
+    padding: 1px 6px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: .8em;
+}
+.mgat {
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+
+}
+.mgat p{
+    margin: 0;
+    font-size: 1em;
+}
+.mgat img{
+    padding: 5px;
+    width: 90%;
+}
+.mgat h5{
+    font-size: 1em;
+    color: #333333;
+}
+.mgat button{
+    font-size: .7em;
+}
+.hov{
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+.hov:hover{
+    border: solid 1px #ff3300;
+    margin-top: 2px;
+}
+.gia{
+    font-weight: bold;
+    color: #ff0033;
+
+}
+.container >h2{
+    color: #333333;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.mrtop{
+    margin-top: 10px;
+}
+.padding5px{
+
+}
+.logo-hover > .row > .padding5px:hover{
+    background-color: #ffc107;
+}
+.logo-hover > .row >.padding5px >img{
+    max-width: 85%;
+}
+.tenhang{
+    background-image:linear-gradient(to right, #222 , #fff);
+}
+.tenhang> h2{
+    font-size: 1em;
+    margin-left: 5%;
+    margin-top: 5px;
+    color: #fff;
+}
+@media screen and (max-width:500px){
+    .img-responsive{
+        max-width:150px;
+        min-width:150px; 
+    }
+}
+#collapsibleNavbar >.navbar-nav>.nav-item>a:hover{
+    color: #ffc107!important;
+}
+
+/* back1 */
+/*view login*/
+.vlogin{
+    border:solid 1px #212529;
+    box-sizing: border-box;
+    box-shadow:1px 2px 10px #4e555b;
+    margin: auto;
+    margin-top: 100px;
+}
+.vlogin h2{
+    margin-top: 10PX;
+    text-align: center;
+    color: #222;
+    font-size: 2em;
+}
+.vlogin label{
+    text-transform: uppercase;
+
+}
+.vlogin input[type='submit']{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+.vlogin  a{
+    float: right;
+}
+.vlogin  form{
+    padding: 10px 60px;
+}
+.mgat .txtleft{
+    text-align: left;
+}
+.bdmgat{
+    border-bottom: solid 1px #333333;
+}
+.tensp1{
+    font-size: 1.5em;
+}
+.colorrow{
+
+}
+.text-sm{
+    font-size: .8em;
+}
+.text-smm {
+    font-size: .5em;
+    color: #cccccc;
+   
+}
+.text-smmm {
+    font-size: 1em;
+
+   
+}
+.text-smmm i{
+   font-size:13px
+}
+.none-decoration{
+     text-decoration: none;
+}
+.bg-opacity-black{
+    background-color: #cccccc;
+}

@@ -1,0 +1,85 @@
+Options +FollowSymlinks
+RewriteEngine on
+#Options All -Indexes
+DirectoryIndex site/view/index.php
+# view site
+RewriteRule ^admin-detail-order/$ site/view/admin_chitietdonhang.php
+RewriteRule ^admin-detail-order$ site/view/admin_chitietdonhang.php
+RewriteRule ^admin-detail-product/$ site/view/admin_chitietsanpham.php
+RewriteRule ^admin-detail-product$ site/view/admin_chitietsanpham.php
+RewriteRule ^admin-index/$ site/view/admin_index.php
+RewriteRule ^admin-index$ site/view/admin_index.php
+RewriteRule ^admin-manage-account/$ site/view/admin_quanlytaikhoan.php
+RewriteRule ^admin-manage-account$ site/view/admin_quanlytaikhoan.php
+RewriteRule ^admin-add-product/$ site/view/admin_themsanpham.php
+RewriteRule ^admin-add-product$ site/view/admin_themsanpham.php
+RewriteRule ^detail-cart/$ site/view/detailcart.php
+RewriteRule ^detail-cart$ site/view/detailcart.php
+RewriteRule ^detail-product/$ site/view/detailproducts.php
+RewriteRule ^detail-product$ site/view/detailproducts.php
+RewriteRule ^sigin/$ site/view/sigin.php
+RewriteRule ^sigin$ site/view/sigin.php
+RewriteRule ^option-result/$ site/view/sort.php
+RewriteRule ^option-result$ site/view/sort.php
+
+RewriteRule ^sum-product/$ site/view/user_cart_tongsanpham.php
+RewriteRule ^sum-product$ site/view/user_cart_tongsanpham.php
+RewriteRule ^result-status-order/$ site/view/user_thongbaodonhangthanhcong.php
+RewriteRule ^result-status-order$ site/view/user_thongbaodonhangthanhcong.php
+RewriteRule ^status-order/$ site/view/user_tinhtrangdonhang.php
+RewriteRule ^status-order$ site/view/user_tinhtrangdonhang.php
+RewriteRule ^update-detail-order/$ site/view/user_update_thongtinnhanhang.php
+RewriteRule ^update-detail-order$ site/view/user_update_thongtinnhanhang.php
+RewriteRule ^admin-list-product/$ site/view/admin_all_sanpham.php
+RewriteRule ^admin-list-product$ site/view/admin_all_sanpham.php
+RewriteRule ^login/$ site/view/login.php
+RewriteRule ^login$ site/view/login.php
+RewriteRule ^shiper-index/$ site/view/shiper_index.php
+RewriteRule ^shiper-index$ site/view/shiper_index.php
+RewriteRule ^shiper-product/$ site/view/shiper_product.php
+RewriteRule ^shiper-product$ site/view/shiper_product.php
+RewriteRule ^hoat-dong-nhom/$ site/view/hoaddongnhom.php
+RewriteRule ^hoat-dong-nhom$ site/view/hoaddongnhom.php
+# end view site site/view/sort.php
+#controller
+RewriteRule ^ctl-update-product/$ site/controller/admin_capnhapsanpham.php
+RewriteRule ^ctl-update-product$ site/controller/admin_capnhapsanpham.php
+RewriteRule ^ctl-ok-order/$ site/controller/admin_hoantatdonhang.php
+RewriteRule ^ctl-ok-order$ site/controller/admin_hoantatdonhang.php
+RewriteRule ^ctl-add-product/$ site/controller/admin_themsanpham.php
+RewriteRule ^ctl-add-product$ site/controller/admin_themsanpham.php
+RewriteRule ^ctl-delete-product/$ site/controller/admin_xoasanpham.php
+RewriteRule ^ctl-delete-product$ site/controller/admin_xoasanpham.php
+RewriteRule ^ctl-ajax-giam/$ site/controller/ajaxgiam.php
+RewriteRule ^ctl-ajax-giam$ site/controller/ajaxgiam.php
+RewriteRule ^ctl-ajax-tang/$ site/controller/ajaxtang.php
+RewriteRule ^ctl-ajax-tang$ site/controller/ajaxtang.php
+RewriteRule ^ctl-order/$ site/controller/dathang.php
+RewriteRule ^ctl-order$ site/controller/dathang.php
+RewriteRule ^ctl-feedback/$ site/controller/feedback.php
+RewriteRule ^ctl-feedback$ site/controller/feedback.php
+RewriteRule ^ctl-load-detail-cart/$ site/controller/load_ajax_detail_cart.php
+RewriteRule ^ctl-load-detail-cart$ site/controller/load_ajax_detail_cart.php
+RewriteRule ^ctl-login/$ site/controller/login.php
+RewriteRule ^ctl-login$ site/controller/login.php
+
+RewriteRule ^ctl-logout/$ site/controller/logout.php
+RewriteRule ^ctl-logout$ site/controller/logout.php
+RewriteRule ^ctl-sigin/$ site/controller/sigin.php
+RewriteRule ^ctl-sigin$ site/controller/sigin.php
+RewriteRule ^ctl-add-cart/$ site/controller/user_addcart.php
+RewriteRule ^ctl-add-cart$ site/controller/user_addcart.php
+RewriteRule ^ctl-user-function/$ site/controller/user_function.php
+RewriteRule ^ctl-user-function$ site/controller/user_function.php
+RewriteRule ^ctl-update-detail-order/$ site/controller/user_updatethongtinnhanhang.php
+RewriteRule ^ctl-update-detail-order$ site/controller/user_updatethongtinnhanhang.php
+RewriteRule ^ctl-view-product-order/$ site/controller/user_viewdanhsachsanphammua.php
+RewriteRule ^ctl-view-product-order$ site/controller/user_viewdanhsachsanphammua.php
+RewriteRule ^ctl-view-list-product-order/$ site/controller/user_xoasanpham.php
+RewriteRule ^ctl-view-list-product-order$ site/controller/user_xoasanpham.php
+RewriteRule ^ctl-shiper-add-order/$ site/controller/shiper_add_order.php
+RewriteRule ^ctl-shiper-add-order$ site/controller/shiper_add_order.php
+RewriteRule ^shiper-update-status/$ site/controller/shiper_update_status.php
+RewriteRule ^shiper-update-status$ site/controller/shiper_update_status.php
+# end controller 
+
